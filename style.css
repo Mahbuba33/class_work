@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.warrped{
+	margin: 0 auto;
+	width: 80%;
+}
+.head_section{
+	height: 100px;
+	background: #000000;
+	
+}
+.logo{
+	float: left;
+	width: 20%;
+}
+.nav{
+	float: right;
+	width: 70%;
+}
+.nav ul{
+	margin-top: 40px;
+}
+.nav ul li{
+	color: white;
+	display: inline-block;
+	padding-right: 40px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.nav ul li a:hover{
+	color:orange;
+	transition: .5s;
+}
+.banner{
+	background-image: url(images/banner2.jpg);
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+.banner h2{
+	margin-top: 80px;
+	color:white;
+	font-size: 40px;
+}
+.banner h1{
+	margin-top: 10px;
+	color: #44B2EF;
+	font-size: 55px;
+}
+.banner p{
+	color: white;
+	font-size: 19px;
+}
+.banner button{
+	margin-top: 30px;
+	padding:10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.banner button:hover{
+	background-color: orange;
+	border: none;
+	transition: 1s;
+}
+.services{
+	overflow: hidden;
+	padding: 50px 0;
+	background: #121B2A;
+}
+.servicebox{
+	color: white;
+	width: 28%;
+	float: left;
+	border-right: 1px solid white;
+	padding-right: 20px;
+	margin-right: 30px;
+	font-size: 16px;
+	font-family: arial;
+}
+.log1 img{
+	float: left;
+	width: 30%;
+}
+.logo1 p{
+	float: right;
+	width: 65%;
+	font-size: 14px;
+	font-family: arial;
+
+}
+.servicebox:last-child{
+	border: none;
+}
+.footer_section{
+	height: 90px;
+	background: #121B2A;
+	border: 2px solid black;
+}
+.foot_navi{
+}
+.foot_navi ul{
+	margin-top: 20px;
+}
+.foot_navi ul li{
+	display: inline-block;
+	padding-right: 10px;
+	border-right: 1px solid white;
+
+}
+.foot_navi ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	
+	padding-left: 5px;
+}
+.foot_navi ul li:last-child{
+	border: none;
+}
+.foot_navi ul li a:hover{
+	color:orange;
+	transition: .5s;
+}
+.para{
+	color: white;
+	padding-top: 10px;
+	font-size: 14px;
+	float: left;
+}
+.footimg{
+	float: right;
+	margin-top: 10px;
+	
+}
+.footer_left{
+	float: left;
+}
+.footer_left p{
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+	padding: 7px 0 0 5px;
+}
