@@ -52,6 +52,7 @@ body{
 	margin-top: 80px;
 	color:white;
 	font-size: 40px;
+	margin-top: 55px;
 }
 .banner h1{
 	margin-top: 10px;
@@ -71,9 +72,10 @@ body{
 	cursor: pointer;
 }
 .banner button:hover{
-	background-color: orange;
+	background-color: #192462;
 	border: none;
-	transition: 1s;
+	transition: .5s;
+	color: white;
 }
 .services{
 	overflow: hidden;
@@ -85,8 +87,8 @@ body{
 	width: 28%;
 	float: left;
 	border-right: 1px solid white;
-	padding-right: 20px;
-	margin-right: 30px;
+	padding-right: 25px;
+	margin-right: 31px;
 	font-size: 16px;
 	font-family: arial;
 }
